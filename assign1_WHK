@@ -1,0 +1,43 @@
+
+#!/bin/bash
+
+#Assignment 1 - Will Kirkpatrick
+
+#assn01-1
+ find ~/ -name *nad* 
+
+#assn01-2
+ top -F -R -o cpu
+
+#Pct of CPU used by top: 4.5-4.8%
+#CPU usage: 15.78% user, 4.54% sys, 79.66% idle
+#Available CPU: PhysMem: 10G used (1896M wired), 6237M unused.
+
+#assn01-3
+ grep 'misc_feature' watermelon.gff | sort -k 5 -r -g > IR_regions.gff
+
+#assn01-4
+
+#finding number of genes similar to chloroplast
+  grep 'Gene similar to chloroplast' watermelon.gff | wc -l
+#Output: 20
+
+#finding number of genes dissimilar to chloroplast
+  grep -v 'Gene similar to chloroplast' watermelon.gff | wc -l
+#Output: 124
+
+#More come from outside the chloroplast IR. 124>20
+
+#assn01-5
+ chmod u+x watermelon.gff
+ ls -al
+ grep -hB100 GGATCC *.fasta | grep -huB100 GAATTC | less -S
+
+#assn01-6
+  sed -n '500,1000 p' shaver_etal.csv
+
+#assn01-7
+  sort fruit.txt -k2,2r -k3,3
+
+
+
