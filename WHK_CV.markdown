@@ -8,7 +8,7 @@ Fayetteville, AR <br>
 August 2019 – Present <br>
 PhD in Biological Sciences – *In Progress*
 
-**University of Tennessee** 						
+**University of Tennessee** <br> 						
 Knoxville, TN <br>
 August 2015 – May 2019 <br>
 Bachelor of Science in Ecology and Evolutionary Biology <br>
