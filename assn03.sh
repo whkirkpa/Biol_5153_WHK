@@ -36,6 +36,31 @@ ls gene_trees/ | grep .tre | cut -d "_" -f1 > t_files.txt
 comm -23 f_files.txt t_files.txt | wc -l
 #Output: 445
 
+#Andy Help:
+
+#Test if this works
+for i in *.fasta
+	do echo $i
+	echo ${i%.fasta}_raxml.tre  # % gets rid of things past it
+done
+#Prints to screen your desired output
+
+#Real Deal
+for i in *.fasta
+	do 
+	test -e ${i%.fasta}_raxml.tre/ 
+	and continue; 
+	echo $i
+done
+
+for i in *.fasta
+	do test -e ${i%.fasta}_raxml.tre || echo $i
+	done | less -SN
+
+
+
+
+
 #assn03-7
 
 for i in ./gene_trees/*.sched
