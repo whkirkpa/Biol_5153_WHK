@@ -6,3 +6,4 @@ Assignment 4 - assn04/ (waiting on head node to be back up to finish number 8)<b
 
 Python for Biologists<br>
 CH 2 - p4b_ch2_kirkpatrick.ipynb<br>
+CH 3 - p4b_ch3_kirkpatrick.ipynb<br>
