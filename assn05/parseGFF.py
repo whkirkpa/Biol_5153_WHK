@@ -1,22 +1,28 @@
 #! /usr/bin/env python3
 
-genefile = open("watermelon.gbf", "r")
-#Create a blank list for appending
-list = []
+#Parsed wrong file initially; changed to gff instead of gbf
 
-for gene in genefile:
-    if "gene=" in gene:
-        x = gene.split("=", 1) #split at "="
-        x = x[1].rstrip()
-        x = x.strip('\"')
-        #Print x to screen
-        if x in list:
-            print(x, "has already been found")
+gff = open("watermelon.gff", "r")
+list = [] #blank list of genes
+
+for gene in gff:
+    gene = gene.rstrip("\n")
+    gene = gene.split("\t")
+    gene = gene[8].split(" ")
+    
+    #Printing based on language in .gff file
+    if(gene[1] == "similar"):
+        print("similar")
+    if(gene[1] == "inverted"):
+        print("inverted")
+    
+    else:
+        if gene[1] in list:
+            print("already found")
         else:
-            list.append(x)
-            print(x, "has been added to the gene list.")
+            list.append(gene[1])
 
-#Close file; sort and print list.
-genefile.close()
+#Close file; sort and print list
+gff.close()
 list.sort()
 print(list)
