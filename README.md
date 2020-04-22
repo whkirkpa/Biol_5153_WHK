@@ -11,4 +11,5 @@ CH 3 - p4b_ch3_kirkpatrick.ipynb<br>
 CH 4 - p4b_ch4_kirkpatrick.ipynb<br>
 CH 5 - p4b_ch5_kirkpatrick.ipynb<br>
 CH 7 - p4b_ch7_kirkpatrick.ipynb<br>
+CH 8 - p4b_ch8_kirkpatrick.ipynb<br>
 CH 9 - p4b_ch9_kirkpatrick.ipynb<br>
