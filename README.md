@@ -4,6 +4,7 @@ My CV - WHK_CV.markdown<br>
 Assignment 3 -  assn03.sh<br>
 Assignment 4 - assn04/<br>
 Assignment 5/6 - assn05:assn06/
+Parse GFF - parseGFF.py
 
 Python for Biologists<br>
 CH 2 - p4b_ch2_kirkpatrick.ipynb<br>
