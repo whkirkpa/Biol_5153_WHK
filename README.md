@@ -3,7 +3,7 @@ Assignment 1 - assign1_WHK<br>
 My CV - WHK_CV.markdown<br>
 Assignment 3 -  assn03.sh<br>
 Assignment 4 - assn04/<br>
-Assignment 5/6 - assn05:assn06/
+Assignment 5/6 - assn05:assn06/<br>
 Parse GFF - parseGFF.py
 
 Python for Biologists<br>
